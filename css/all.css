@@ -29,7 +29,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1.18;
+	line-height: 1;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -51,32 +53,27 @@ a{
     text-decoration: none;
 }
 
-/*間隔設定*/
-
-.mb-3{
-    margin-bottom: 30px;
-}
-
-/*主要內容*/
+/*container*/
 
 .container{
     width: 1200px;
     margin: 0 auto;
+    padding-top: 30px;
 }
 
-h1{
+.container h1{
     font-size: 80px;
     color: #000;
-    border-bottom: 2px solid #000;
-    padding-bottom: 10px;
+    border-bottom: 3px solid #000;
+    padding-bottom: 30px;
     margin-bottom: 30px;
 }
 
-.basic{
-    margin-bottom: 50px;
+.photo{
+    padding-bottom: 50px;
 }
 
-h2{
+.container h2{
     font-size: 32px;
     color: #000;
     border-bottom: 2px solid #000;
@@ -84,91 +81,89 @@ h2{
     margin-bottom: 20px;
 }
 
-span{
+.container span{
     font-size: 24px;
     color: #A00404;
 }
 
-p{
+.container ul li{
     font-size: 24px;
+    line-height: 36px;
     color: #000;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
+
 
 .skill{
     background: #415165;
-    margin-bottom: 50px;
-}
-
-.skill h2,.skill span,.skill li{
-    color: #fff;
-}
-
-.skill h2{
-    border-bottom: 2px solid #fff;
-    text-align: center;
-    padding: 20px;
-}
-
-.skillcontent{
-    padding: 30px;
-}
-
-.skill ul{
-    padding-left: 20px;
-    padding-top: 20px;
-    margin: 0 500px;
-    border-left: 2px solid #fff;
-}
-
-.skill li{
-    padding-bottom: 20px;
-}
-
-.experience ul{
-    border-left: 2px solid rgb(204, 204, 204);
-    padding-left: 20px;
-    margin-left: 20px;
-}
-
-.experience h3{
-    font-size: 24px;
-    color: #000;
     padding-bottom: 30px;
 }
 
-.experience img{
-    padding: 20px 0;
+.inner{
+    width: 800px;
+    margin: 0 auto;
 }
 
-.experience p{
-    padding-right: 390px;
+.inner h2{
+    font-size: 32px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
 }
 
+.inner span{
+    font-size: 24px;
+    color: #fff;
+}
 
+.skill ul{
+    border-left: 2px solid #fff;
+    padding-left: 20px;
+    margin-left: 300px;
+}
+
+.skill ul li{
+    font-size: 24px;
+    color: #fff;
+}
+
+.container h3{
+    font-size: 24px;
+    color: #000;
+}
+
+.container img{
+    margin-bottom: 20px;
+}
+
+.container p{
+    margin-right: 435px;
+}
+
+.experience ul{
+    border-left: 2px solid #000;
+    padding-left: 20px;
+    margin-left: 30px;
+}
 
 .footer{
     background: #415165;
 }
 
-.footer h2,.footer span,.footer li{
-    color: #fff;
+.footer ul{
     text-align: center;
 }
 
-.footer h2{
-    border-bottom: 2px solid #fff;
-    padding: 20px;
-    margin-bottom: 40px;
-}
-
-.footer li{
-    padding-bottom: 20px;
+.footer ul li{
+    font-size: 24px;
+    color: #fff;
 }
 
 .community{
-    display: flex;
-    padding: 10px 470px;
+   display: flex;
+   justify-content: center;
 }
 
 .community li{
